@@ -1,9 +1,12 @@
 h1 {
   text-align: center;
+  font-family:  fantasy;
 }
-
+body{
+  background-color: #ffeead;
+}
 #recipe1 {
-  background-color: red;
+  background-color: #ff6f69;
   width: 300px;
   height: 50vh;
   -webkit-transition: width 1s;
@@ -22,11 +25,18 @@ h1 {
 img {
   max-width: 100%;
 }
+#smores-img{
+  width: 100%;
+  height: 70%;
+}
 
 #recipe1:hover>img {
   float: left;
   margin: 5px;
   margin-right: 30px;
+  height: 450px;
+  width: 450px;
+  border: 5px solid #ffcc5c;
 }
 
 #recipe1>ul, li, ol {
@@ -47,4 +57,17 @@ img {
 
 h3 {
   text-align: left;
+}
+h4{
+  color: white;
+  font-family: Comic Sans MS;
+}
+#smores{
+  color: green;
+}
+#wings{
+  color: yellow;
+}
+#chicken65{
+  color: orange;
 }
